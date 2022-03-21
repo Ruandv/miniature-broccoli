@@ -1,0 +1,36 @@
+@import '../base.scss';
+.app {
+  box-sizing: border-box;
+  padding:10px;
+  background-image: url(../content/logo540.png);
+  background-size: cover;
+  min-width: 340px;
+  min-height: 540px;
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: top;
+  display: flex;
+  flex-direction: column;
+}
+.app-header {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  flex: 1;
+}
+.login {
+  flex: 1;
+  padding: 10px;
+}
+.footer{
+  display: flex;
+  justify-content: space-around;
+}
+footer {
+  flex: 1;
+}
+.row {
+  display: flex;
+  flex-direction: column;
+}
